@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+input {
+  padding: 9px 25px;
+  border-radius: 5px;
+  background-color: #b4b4ab;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+#balance {
+  border: 2px solid black;
+  background-color: #b4b4ab;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 5px 0;
+  text-align: center;
+  &:before {
+    content: "Balance:";
+  }
+}
+
+.components {
+  display: flex;
+  flex-wrap: wrap;
+
+  > div {
+    background-color: #2f2f31;
+    margin: 20px;
+    padding: 30px 50px;
+    text-align: center;
+    border-radius: 10px;
+
+    h1 {
+        margin: 0 0 20px;
+        color: #cecd24;
+    }
+  }
+}
+
+.button {
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  padding: 9px 25px;
+  font-size: 0.7em;
+  letter-spacing: 0.7px;
+  background-color: #cecd24;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+html {
+  background-color: #2f2f31;
+}
+
+#footer {
+  color: #cecd24;
+}
+
+.success {
+  background-color: #B8FFA3
+}
+
+.failure {
+  background-color: #FF8A8A
+}
+
+.components {
+    display: none;
+}
+
+#instructions {
+    text-align: center;
+    color: #cecd24;
+}
+
+#title {
+    text-align: center;
+    color: #cecd24;
+}
+
+#submit-domain {
+    color: black;
+}
+
+#sig-note {
+    color: #cecd24;
+}
